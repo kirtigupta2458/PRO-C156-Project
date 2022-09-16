@@ -7,9 +7,7 @@
 
     <!-- IMPORTED COMPONENTS -->
     <script src="./js/Fish.js"></script>
-    <script src="./js/Treasure.js"></script>
-    <script src="./js/Rotation.js"></script>
-    <script src="./js/Game.js"></script>
+    
   </head>
   <body>
     <a-scene physics>
@@ -74,10 +72,10 @@
         ></a-entity>
 
         <!--Fish Entity-->
-        <a-entity position="0 0 0" id="fishModels" fish> </a-entity>
+        <a-entity position="0 0 0" id="fishModels" > </a-entity>
 
         <!--Treasure Entity-->
-        <a-entity position="0 0 0" id="treasureCoins" coins> </a-entity>
+        <a-entity position="0 0 0" id="treasureCoins" > </a-entity>
 
         <!--Turtule-->
         <a-entity
@@ -100,7 +98,7 @@
           radiusTop: 20;
           radiusBottom: 20;
           offset:50 100 -50"
-        diver-rotation-reader
+        
       >
         <a-sphere
           id="bubble1"
